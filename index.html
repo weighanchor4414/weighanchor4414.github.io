@@ -23,36 +23,58 @@
   <body>
 
     <div class="jumbotron text-center">
-        <h1>My Personal Webpage</h1>
+        <h1 class="display-3">My Personal Webpage</h1>
         <p>
             This is a practise for learning <code>html</code>, <code>css</code> and <code>bootstrap</code>
     </div>
     <div class="container-sm">
       <div class="jumbotron bg-dark text-light">
         <h2 class="text-center">About Me</h2>
-        <div class="row">
-          <div class="col-sm-3">
-
-          </div>
-          <div class="col-sm-6 pt-3">
-            <p>
-              Student at Singapore University of Technology and Design(SUTD)
-              <br>
-              Class of 2022
-              <br>
-              Member of Multi Rotor club, SUTD (MRS)
-            </p>
-          </div>
-          <div class="col-sm-3">
-
-          </div>
+        <p class="blocktext" style="margin-left: 225px; margin-right: 225px;">
+          Student at Singapore University of Technology and Design(SUTD), Class of 2022
+          <br>
+          Member of Multi Rotor club, SUTD (MRS)
+        </p>
+        <p class="blocktext" style="margin-left: 225px; margin-right: 225px;">
+          Computer hardware as well as aviation enthusiast
+        </p>
         </div>
       </div>
     </div>
-    <div class="container-fluid" style="height: 30vw;">
-      <h2 class="text-center">Personal Projects</h2>
-      <div class="row p-3">
-        <div class="col-sm-3">
+    <div class="container-fluid pt-3">
+      <h1 class="text-center">Academic Projects</h1>
+      <div class="row">
+        
+        <div class="col-sm-8 p-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4 class="card-title">Autonomous Aerial Vehicle Challenge (AAVC) 2020</h4>
+              <p>
+                A high load capacity, long endurance Search and Rescue (SAR) quadrotor platform with folding arms to reduce footprint during transportation.
+                <br>
+                Has a maxmimum endurance of 18 minutes and can carry up to 5kg of payload with a max speed of up to 60km/h.
+              </p>
+            </div>
+            <img class="card-img-bottom" src="images/aavc_drone.jpg">
+          </div>
+        </div>
+
+        <div class="col-sm-4 p-3">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/secstack.jpg" style="object-fit: cover;">
+            <div class="card-body">
+              <h4 class="card-title">Share Stack</h4>
+              <p>A modular, stackable locker system with an iOS app that allows for co-sharing of locker spaces with others to encourage collaboration</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="container-fluid pt-3" style="height: 30vw;">
+      <h1 class="text-center">Personal Projects</h1>
+      <div class="row">
+        <div class="col-sm-3 p-3">
           <div class="h-100 card">
             <div class="card-body">
               <h4 class="card-title">Mini Homelab</h4>
@@ -63,7 +85,7 @@
             <img class="card-img-bottom" src="images/router.jpeg" style="object-fit: cover;">
           </div>
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-9 p-3">
           <div class="h-100 card">
             <img class="card-img-top" src="images/desktop.jpeg" style="object-fit: cover;">
             <div class="card-body text-right">
@@ -71,15 +93,9 @@
               <p>My personal handbuilt system to serve as a daily driver for gaming and general web browsing<br>Also provides file syncing and off site backup services for my various devices around the country</p>
               <h5>Specs</h5>
               <p>
-                Processor: Intel Core i7-4930K
+                The processor is a  Intel Core i7-4930K paired with 4 sticks of G.skill DDR3-1333Mhz RAM while an AMD Radeon Vega 64 handles the graphical heavylifting
                 <br>
-                Graphics: AMD Radeon Vega 64
-                <br>
-                RAM: G.skill 4x8GB DDR3-1333
-                <br>
-                SSD: Samsung 850 EVO 250GB
-                <br>
-                HDD: WD Blue 1TB 
+                A Samsung 850 EVO 250GB SSD paired with a 1TB WD Blue HDD handles the storage side of things with plans to increase the storage capacity in the future
               </p>
             </div>
           </div>
